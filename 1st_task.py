@@ -2,7 +2,14 @@ import math
 
 g = 9.81
 
-v = float(input("Введите начальную скорость (в м/с): "))
+while True:
+    v = float(input("Введите начальную скорость (в м/с): "))
+    if v >=0:
+        break
+    else:
+        print("ожидается положительное число")
+        continue
+
 alpha = float(input("Введите угол броска (в градусах): "))
 
 
