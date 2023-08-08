@@ -9,5 +9,5 @@ response = requests.get('http://127.0.0.1:8000/city_list?page=1&per_page=10')
 print(response.json())
 
 # Сравнение двух городов
-response = requests.get('http://127.0.0.1:8000/compare_cities?city1=Москва&city2=Пенза')
+response = requests.get('http://127.0.0.1:8000/compare_cities?city1=Москва&city2=Воркута')
 print(response.json())

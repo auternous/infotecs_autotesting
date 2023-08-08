@@ -10,4 +10,4 @@ http://127.0.0.1:8000/city_list?page=1&per_page=10
 
 # Сравнение двух городов
 response = requests.get('http://127.0.0.1:8000/compare_cities?city1="RU_name1"&city2="RU_name2"')\
-http://127.0.0.1:8000/compare_cities?city1=Москва&city2=Пенза
+http://127.0.0.1:8000/compare_cities?city1=Москва&city2=Воркута
